@@ -1,0 +1,15 @@
+import React from 'react';
+import './AppContainer.css';
+
+import FoodAdder from './FoodAdder';
+
+export default function AppContainer() {
+    return (
+        <div className="container">
+            <div className="calories">
+                <h2>Калории:</h2>
+            </div>
+            <FoodAdder />
+        </div>
+    );
+}
